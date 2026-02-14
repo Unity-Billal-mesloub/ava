@@ -6,14 +6,14 @@
 
 AVA is a test runner for Node.js with a concise API, detailed error output, embrace of new language features and thread isolation that lets you develop with confidence 🚀
 
-Watch this repository and follow the [Discussions](https://github.com/avajs/ava/discussions) for updates.
+Watch this repository and follow the [Discussions](https://github.com/Unity-Billal-mesloub/ava/discussions) for updates.
 
 Read our [contributing guide](.github/CONTRIBUTING.md) if you're looking to contribute (issues / PRs / etc).
 
 ![](media/verbose-reporter.png)
 
 
-Translations: [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/readme.md), [한국어](https://github.com/avajs/ava-docs/blob/main/ko_KR/readme.md), [Português](https://github.com/avajs/ava-docs/blob/main/pt_BR/readme.md), [Русский](https://github.com/avajs/ava-docs/blob/main/ru_RU/readme.md), [简体中文](https://github.com/avajs/ava-docs/blob/main/zh_CN/readme.md)
+Translations: [Español](https://github.com/Unity-Billal-mesloub/blob/main/es_ES/readme.md), [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ja_JP/readme.md), [한국어](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ko_KR/readme.md), [Português](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/pt_BR/readme.md), [Русский](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ru_RU/readme.md), [简体中文](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/zh_CN/readme.md)
 
 
 ## Why AVA?
@@ -112,7 +112,7 @@ npx ava --watch
 
 ## Supported Node.js versions
 
-AVA supports the latest release of any major version that [is supported by Node.js itself](https://github.com/nodejs/Release#release-schedule). Read more in our [support statement](docs/support-statement.md).
+AVA supports the latest release of any major version that [is supported by Node.js itself](https://github.com/Unity-Billal-mesloub/Release#release-schedule). Read more in our [support statement](docs/support-statement.md).
 
 ## Highlights
 
@@ -182,36 +182,31 @@ It's the [Andromeda galaxy](https://simple.wikipedia.org/wiki/Andromeda_galaxy).
 
 ## Support
 
-- [GitHub Discussions](https://github.com/avajs/ava/discussions)
+- [GitHub Discussions](https://github.com/Unity-Billal-mesloub/ava/discussions)
 
 ## Related
 
-- [eslint-plugin-ava](https://github.com/avajs/eslint-plugin-ava) — Lint rules for AVA tests
-- [@ava/typescript](https://github.com/avajs/typescript) — Test TypeScript projects
-- [@ava/cooperate](https://github.com/avajs/cooperate) — Low-level primitives to enable cooperation between test files
-- [@ava/get-port](https://github.com/avajs/get-port) — Reserve a port while testing
+- [eslint-plugin-ava](https://github.com/Unity-Billal-mesloub/eslint-plugin-ava) — Lint rules for AVA tests
+- [@ava/typescript](https://github.com/Unity-Billal-mesloub/typescript) — Test TypeScript projects
+- [@ava/cooperate](https://github.com/Unity-Billal-mesloub/cooperate) — Low-level primitives to enable cooperation between test files
+- [@ava/get-port](https://github.com/Unity-Billal-mesloub/get-port) — Reserve a port while testing
 
 ## Links
 
 - [AVA stickers, t-shirts, etc](https://www.redbubble.com/people/sindresorhus/works/30330590-ava-logo)
-- [Awesome list](https://github.com/avajs/awesome-ava)
+- [Awesome list](https://github.com/Unity-Billal-mesloub/awesome-ava)
 - [Do you like AVA? Donate here!](https://opencollective.com/ava)
-- [More…](https://github.com/avajs/awesome-ava)
+- [More…](https://github.com/Unity-Billal-mesloub/awesome-ava)
 
 ## Team
 
-[![Mark Wubben](https://github.com/novemberborn.png?size=100)](https://github.com/novemberborn) | [![Sindre Sorhus](https://github.com/sindresorhus.png?size=100)](https://github.com/sindresorhus)
+[![Billal Mesloub](https://github.com/Unity-Billal-mesloub.png?size=100)](https://github.com/Unity-Billal-mesloub) | [![Sindre Sorhus]
 ---|---
 [Mark Wubben](https://novemberborn.net) | [Sindre Sorhus](https://sindresorhus.com)
 
 ###### Former
 
-- [Kevin Mårtensson](https://github.com/kevva)
-- [James Talmage](https://github.com/jamestalmage)
-- [Juan Soto](https://github.com/sotojuan)
-- [Jeroen Engels](https://github.com/jfmengels)
-- [Vadim Demedes](https://github.com/vadimdemedes)
-
+- [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 <div align="center">
 	<br>
