@@ -1,6 +1,6 @@
 # Configuration
 
-Translations: [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/docs/06-configuration.md)
+Translations: [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/docs/06-configuration.md)
 
 All of the [CLI options][CLI] can be configured in the `ava` section of either your `package.json` file, or an `ava.config.*` file. This allows you to modify the default behavior of the `ava` command, so you don't have to repeatedly type the same options on the command prompt.
 
@@ -43,7 +43,7 @@ Arguments passed to the CLI will always take precedence over the CLI options con
 ## Options
 
 - `files`: an array of glob patterns to select test files. Files with an underscore prefix are ignored. By default only selects files with `cjs`, `mjs` & `js` extensions, even if the pattern matches other files. Specify `extensions` to allow other file extensions
-- `watchMode`: See the [watch mode recipe for details](https://github.com/avajs/ava/blob/main/docs/recipes/watch-mode.md)
+- `watchMode`: See the [watch mode recipe for details](https://github.com/Unity-Billal-mesloub/ava/blob/main/docs/recipes/watch-mode.md)
 - `match`: not typically useful in the `package.json` configuration, but equivalent to [specifying `--match` on the CLI](./05-command-line.md#running-tests-with-matching-titles)
 - `cache`: defaults to `true` to cache compiled files under `node_modules/.cache/ava`. If `false`, files are cached in a temporary directory instead
 - `concurrency`: max number of test files running at the same time (default: CPU cores)
@@ -64,7 +64,7 @@ Arguments passed to the CLI will always take precedence over the CLI options con
 
 Note that providing files on the CLI overrides the `files` option.
 
-Provide the `typescript` option (and install [`@ava/typescript`](https://github.com/avajs/typescript) as an additional dependency) for AVA to run tests written in TypeScript.
+Provide the `typescript` option (and install [`@ava/typescript`](https://github.com/Unity-Billal-mesloub/typescript) as an additional dependency) for AVA to run tests written in TypeScript.
 
 ## Using `ava.config.*` files
 
