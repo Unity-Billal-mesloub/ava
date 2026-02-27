@@ -1,6 +1,6 @@
 # CLI
 
-Translations: [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/docs/05-command-line.md)
+Translations: [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/docs/05-command-line.md)
 
 ```console
 ava [<pattern>...]
@@ -84,7 +84,7 @@ When using `npm test`, you can pass positional arguments directly `npm test test
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/avajs/ava/tree/main/examples/matching-titles?file=test.js&terminal=test&view=editor)
 
-The `--match` flag allows you to run just the tests that have a matching title. This is achieved with simple wildcard patterns. Patterns are case insensitive. See [`matcher`](https://github.com/sindresorhus/matcher) for more details.
+The `--match` flag allows you to run just the tests that have a matching title. This is achieved with simple wildcard patterns. Patterns are case insensitive. See [`matcher`](https://github.com/Unity-Billal-mesloub/matcher) for more details.
 
 Match titles ending with `foo`:
 
@@ -227,8 +227,6 @@ AVA uses a human readable reporter by default:
 ### TAP reporter
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/avajs/ava/tree/main/examples/tap-reporter?file=test.js&terminal=test&view=editor)
-
-AVA supports the TAP format and thus is compatible with [any TAP reporter](https://github.com/sindresorhus/awesome-tap#reporters). Use the `--tap` flag to enable TAP output.
 
 ```console
 $ npx ava --tap | npx tap-nyan
