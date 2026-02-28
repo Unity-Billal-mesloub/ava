@@ -144,7 +144,7 @@ Please see the [files in the `docs` directory](./docs):
 
 ### Common pitfalls
 
-We have a growing list of [common pitfalls](docs/08-common-pitfalls.md) you may experience while using AVA. If you encounter any issues you think are common, comment in [this issue](https://github.com/avajs/ava/issues/404).
+We have a growing list of [common pitfalls](docs/08-common-pitfalls.md) you may experience while using AVA. If you encounter any issues you think are common, comment in [this issue](https://github.com/Unity-Billal-mesloub/ava/issues/).
 
 ### Recipes
 
@@ -200,7 +200,7 @@ It's the [Andromeda galaxy](https://simple.wikipedia.org/wiki/Andromeda_galaxy).
 
 ## Team
 
-[![Billal Mesloub](https://github.com/Unity-Billal-mesloub.png?size=100)](https://github.com/Unity-Billal-mesloub) | [![Sindre Sorhus]
+[![Billal Mesloub](https://github.com/Unity-Billal-mesloub.png?size=100)](https://github.com/Unity-Billal-mesloub) | [![Unity-Billal-mesloub]
 ---|---
 [Mark Wubben](https://novemberborn.net) | [Sindre Sorhus](https://sindresorhus.com)
 
