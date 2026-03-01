@@ -1,8 +1,8 @@
 # Writing tests
 
-Translations: [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/docs/01-writing-tests.md)
+Translations: [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/docs/01-writing-tests.md)
 
-Tests are run concurrently. You can specify synchronous and asynchronous tests. Tests are considered synchronous unless you return a promise or an [observable](https://github.com/zenparsing/zen-observable).
+Tests are run concurrently. You can specify synchronous and asynchronous tests. Tests are considered synchronous unless you return a promise or an [observable](https://github.com/Unity-Billal-mesloub/zen-observable).
 
 You must define all tests synchronously. They can't be defined inside `setTimeout`, `setImmediate`, etc.
 
@@ -71,7 +71,7 @@ test('promises the truth', async t => {
 
 ## Observable support
 
-AVA comes with built-in support for [observables](https://github.com/zenparsing/es-observable). If you return an observable from a test, AVA will automatically consume it to completion before ending the test.
+AVA comes with built-in support for [observables](https://github.com/Unity-Billal-mesloub/es-observable). If you return an observable from a test, AVA will automatically consume it to completion before ending the test.
 
 ```js
 test('handles observables', t => {
@@ -138,7 +138,7 @@ You can use the `.failing` modifier to document issues with your code that need 
 This allows you to merge `.failing` tests before a fix is implemented without breaking CI. This is a great way to recognize good bug report PR's with a commit credit, even if the reporter is unable to actually fix the problem.
 
 ```js
-// See: github.com/user/repo/issues/1234
+// See: github.com/user/repo/issues/
 test.failing('demonstrate some bug', t => {
 	t.fail(); // Test will count as passed
 });
@@ -214,7 +214,7 @@ test.after(t => {
 });
 ```
 
-Keep in mind that the `.beforeEach()` and `.afterEach()` hooks run just before and after a test is run, and that by default tests run concurrently. This means each multiple `.beforeEach()` hooks may run concurrently. Using `test.serial.beforeEach()` does not change this. If you need to set up global state for each test (like spying on `console.log` [for example](https://github.com/avajs/ava/issues/560)), you'll need to make sure the tests themselves are [run serially](#running-tests-serially).
+Keep in mind that the `.beforeEach()` and `.afterEach()` hooks run just before and after a test is run, and that by default tests run concurrently. This means each multiple `.beforeEach()` hooks may run concurrently. Using `test.serial.beforeEach()` does not change this. If you need to set up global state for each test (like spying on `console.log` [for example](https://github.com/Unity-Billal-mesloub/ava/issues/)), you'll need to make sure the tests themselves are [run serially](#running-tests-serially).
 
 Remember that AVA runs each test file in its own process. You may not have to clean up global state in a `.after()`-hook since that's only called right before the process exits.
 
@@ -265,7 +265,7 @@ console.log('Test file currently being run:', test.meta.file);
 
 ## Reusing test logic through macros
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/avajs/ava/tree/main/examples/macros?file=test.js&terminal=test&view=editor)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Unity-Billal-mesloub/ava/tree/main/examples/macros?file=test.js&terminal=test&view=editor)
 
 Additional arguments passed to the test declaration will be passed to the test implementation. This is useful for creating reusable test macros.
 
