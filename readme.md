@@ -1,4 +1,3 @@
-*[Please support our friend Vadim Demedes and the people in Ukraine.](https://stand-with-ukraine.pp.ua/)*
 
 ---
 
